@@ -1,0 +1,8 @@
+id=wifi-opt-boost
+name=Optimizing & Boosting WiFi
+version=v1.3
+versionCode=45
+author=Oleg_Skalskiy
+description=Optimizing & Boosting WiFi 
+support=https://t.me/AIST_SUPPORT
+updateJson=https://raw.githubusercontent.com/Oleg-Skalskiy/wifi-opt-boost/main/update.json
