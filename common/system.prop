@@ -1,0 +1,190 @@
+# Xác định kích thước bộ đệm TCP cho các mạng khác nhau
+net.tcp.buffersize.default=6144,87380,1048576,6144,87380,524288
+net.tcp.buffersize.wifi=524288,1048576,2097152,524288,1048576,2097152
+net.tcp.buffersize.umts=6144,87380,1048576,6144,87380,524288
+net.tcp.buffersize.gprs=6144,87380,1048576,6144,87380,524288
+net.tcp.buffersize.edge=6144,87380,524288,6144,16384,262144
+net.tcp.buffersize.hspa=6144,87380,524288,6144,16384,262144
+net.tcp.buffersize.lte=524288,1048576,2097152,524288,1048576,2097152
+net.tcp.buffersize.hsdpa=6144,87380,1048576,6144,87380,1048576
+net.tcp.buffersize.evdo_b=6144,87380,1048576,6144,87380,1048576
+
+# Signal Boost
+bt.max.hfpclient.connections=1
+persist.cust.tel.adapt=1
+persist.cust.tel.eons=1
+ro.ril.enable.2g.prefix=1
+ro.ril.enable.3g.prefix=1
+ro.ril.enable.4g.prefix=1
+ro.ril.enable.5g.prefix=1
+ro.vendor.ril.enable.a51=1
+ro.vendor.ril.enable.a52=1
+ro.vendor.ril.enable.a53=1
+ro.vendor.ril.enable.a54=1
+ro.vendor.ril.enable.a55=1
+ro.vendor.ril.enable.2g.prefix=1
+ro.vendor.ril.enable.3g.prefix=1
+ro.vendor.ril.enable.4g.prefix=1
+ro.vendor.ril.enable.5g.prefix=1
+persist.vendor.cne.feature=0
+
+#wfi +
+ro.wlan.mimo=1
+ro.vendor.wlan.mimo=1
+ro.net.enable_dual_wifi=1
+ro.vendor.net.enable_dual_wifi=1
+ro.net.enable_passpoint_r1=1
+ro.vendor.net.enable_passpoint_r1=1
+sys.wifitracing.started=0
+persist.vendor.wifienhancelog=0
+
+# Open the first-in-first-out interface thread
+ro.telephony.call_ring.delay=0
+ring.delay=0
+
+# Internet Tweaks
+ro.ril.hspa=2
+ro.ril.lte=2
+ro.ril.ltea=2
+ro.ril.htcmaskw1.bitmask=4294967295
+ro.ril.htcmaskw1=14449
+ro.ril.enable.dtm=1
+ro.ril.hspaclass=15
+ro.ril.lteclass=15
+ro.ril.lte.category=10
+ro.ril.ltea.category=30
+ro.ril.enable.a51=1
+ro.ril.enable.a52=1
+ro.ril.enable.a53=1
+ro.ril.enable.a54=1
+ro.ril.enable.a55=1
+
+# gprs (edge) speed settings
+ro.ril.gprsclass=34
+
+# HSPA+ Download speed settings by category. Cat 28 is the highest
+ro.ril.hsdpa.category=28
+
+# HSPA+ Upload speed settings by category. Cat 9 is highest, 7 seems to work just fine.
+ro.ril.hsupa.category=8
+
+# setting to enable hspa+ for the upload and download
+ro.ril.hsxpa=5
+
+# Other Setting
+ro.ril.transmitpower=true
+ro.ril.hep=1
+ro.ril.def.agps.feature=1
+
+# Wireless + TCP Speed & Security Tweaks
+net.core.wmem_max=1048576
+net.core.rmem_max=1048576
+net.core.rmem_default=262144
+net.core.wmem_default=262144
+net.core.optmem_max=20480
+net.unix.max_dgram_qlen=50
+net.ipv4.tcp_ecn=0
+net.ipv4.route.flush=1
+net.ipv4.tcp_rfc1337=1
+net.ipv4.ip_no_pmtu_disc=0
+net.ipv4.tcp_sack=1
+net.ipv4.tcp_fack=1
+net.ipv4.tcp_window_scaling=1
+net.ipv4.tcp_timestamps=1
+net.ipv4.tcp_rmem=4096 39000 187000
+net.ipv4.tcp_wmem=4096 39000 187000
+net.ipv4.tcp_mem=187000 187000 187000
+net.ipv4.tcp_no_metrics_save=1
+net.ipv4.tcp_moderate_rcvbuf=1
+net.ipv6.tcp_ecn=0
+net.ipv6.route.flush=1
+net.ipv6.tcp_rfc1337=1
+net.ipv6.ip_no_pmtu_disc=0
+net.ipv6.tcp_sack=1
+net.ipv6.tcp_fack=1
+net.ipv6.tcp_window_scaling=1
+net.ipv6.tcp_timestamps=1
+net.ipv6.tcp_rmem=4096 39000 187000
+net.ipv6.tcp_wmem=4096 39000 187000
+net.ipv6.tcp_mem=187000 187000 187000
+net.ipv6.tcp_no_metrics_save=1
+net.ipv6.tcp_moderate_rcvbuf=1
+net.tethering.noprovisioning=true
+
+# Signal Tweaks
+persist.cust.tel.eons=1 
+ro.config.combined_signal=true
+telephony.lteOnCdmaDevice=1
+ro.telephony.default_network=33,33
+
+# SMS APN Retry
+ro.gsm.2nd_data_retry_config=max/_retries=3, 2000, 2000, 2000
+
+# Support For IPV4 and IPV6
+persist.telephony.support.ipv6=0
+persist.telephony.support.ipv4=1
+persist.data.netmgrd.qos.enable=false
+persist.vendor.telephony.support.ipv6=1
+persist.vendor.telephony.support.ipv4=1
+persist.vendor.data.netmgrd.qos.enable=false
+
+# Better call voice quality
+ro.ril.enable.amr.wideband=1
+ro.vendor.ril.enable.amr.wideband=1
+
+#Volte cre aist team
+persist.radio.is_vonr_enabled_0=true
+persist.radio.is_vonr_enabled_1=true
+persist.radio.volte.dan_support=true
+persist.radio.sib1_support=1
+persist.vendor.radio.sib1_support=1
+persist.radio.sib2_support=1
+persist.vendor.radio.sib2_support=1
+persist.radio.sib3_support=1
+persist.vendor.radio.sib3_support=1
+persist.radio.sib4_support=1
+persist.vendor.radio.sib4_support=1
+persist.radio.sib5_support=1
+persist.vendor.radio.sib5_support=1
+persist.radio.sib6_support=1
+persist.vendor.radio.sib6_support=1
+persist.radio.sib7_support=1
+persist.vendor.radio.sib7_support=1
+persist.radio.sib8_support=1
+persist.vendor.radio.sib8_support=1
+persist.radio.sib9_support=1
+persist.vendor.radio.sib9_support=1
+persist.radio.sib10_support=1
+persist.vendor.radio.sib10_support=1
+persist.radio.sib11_support=1
+persist.vendor.radio.sib11_support=1
+persist.radio.sib12_support=1
+persist.vendor.radio.sib12_support=1
+persist.radio.sib13_support=1
+persist.vendor.radio.sib13_support=1
+persist.radio.sib14_support=1
+persist.vendor.radio.sib14_support=1
+persist.radio.sib15_support=1
+persist.vendor.radio.sib15_support=1
+persist.radio.sib16_support=1
+persist.vendor.radio.sib16_support=1
+persist.radio.sib17_support=1
+persist.vendor.radio.sib17_support=1
+persist.radio.sib18_support=1
+persist.vendor.radio.sib18_support=1
+persist.radio.sib19_support=1
+persist.vendor.radio.sib19_support=1
+persist.radio.sib20_support=1
+persist.vendor.radio.sib20_support=1
+persist.radio.sib21_support=1
+persist.vendor.radio.sib21_support=1
+persist.radio.sib22_support=1
+persist.vendor.radio.sib22_support=1
+persist.radio.sib23_support=1
+persist.vendor.radio.sib23_support=1
+persist.radio.sib24_support=1
+persist.vendor.radio.sib24_support=1
+persist.radio.sib25_support=1
+persist.vendor.radio.sib25_support=1
+persist.vendor.radio.volte.dan_support=true
+

@@ -1,8 +1,6 @@
-id=wifi-opt-boost
-name=Optimizing & Boosting WiFi
-version=v1.3
-versionCode=45
-author=Oleg_Skalskiy
-description=Optimizing & Boosting WiFi 
-support=https://t.me/AIST_SUPPORT
-updateJson=https://raw.githubusercontent.com/Oleg-Skalskiy/wifi-opt-boost/main/update.json
+﻿id=wifiboost
+name=Wi-fi | 4G Enhanced
+version=v2
+versionCode=03
+author=[_Kanaria_]
+description=Wifi 4g Boost
